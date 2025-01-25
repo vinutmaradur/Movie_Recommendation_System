@@ -1,6 +1,6 @@
-# I will create the content of the README file for the Movie Recommendation System repository.
+# Content of the README file for the Movie Recommendation System repository.
 
-readme_content = """
+
 # Movie Recommendation System
 
 This repository contains the implementation of a Movie Recommendation System. The system utilizes various machine learning techniques to recommend movies to users based on their preferences, either through collaborative filtering or content-based methods.
