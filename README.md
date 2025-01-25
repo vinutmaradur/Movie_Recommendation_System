@@ -17,7 +17,7 @@ This repository contains the implementation of a Movie Recommendation System. Th
 TMDB 5000 Movie Dataset
 The TMDB 5000 Movie Dataset is a dataset available on Kaggle, containing detailed information about 5,000 movies from The Movie Database (TMDb). This dataset is widely used in machine learning, data science, and movie recommendation projects.
 
-## Dataset Overview:
+Dataset Overview:
 - **Source**: The dataset is sourced from The Movie Database (TMDb), a popular community-driven movie database.
 - **Size**: The dataset contains data for 5,000 movies.
 - **Content**: The dataset includes a variety of features related to movies, such as:
@@ -33,14 +33,14 @@ The TMDB 5000 Movie Dataset is a dataset available on Kaggle, containing detaile
 - **Production Companies**: The companies involved in producing the movie.
 - **Cast and Crew**: Information about the actors, directors, and other key personnel.
   
-## Dataset Usage:
+Dataset Usage:
 The TMDB 5000 Movie Dataset is used for various tasks, such as:
 
 - **Movie Recommendation**: Using features like genres, votes, and popularity to recommend movies to users.
 - **Predictive Analysis**: Building models to predict movie success based on budget, genre, and cast.
 - **Data Visualization**: Analyzing and visualizing data trends, such as the distribution of movie genres, revenue, or ratings over time.
 
-## Example Data:
+Example Data:
 
 # Example Movie Data:
 
@@ -50,7 +50,7 @@ The TMDB 5000 Movie Dataset is used for various tasks, such as:
 | Inception |	Action | 2010-07-16 |	38.74 |	8.2 |	1489 |
 | Fight Club	| Drama	| 1999-10-15	| 35.99	| 8.4	| 1994 |
 
-## Dataset Link:
+Dataset Link:
 You can access the TMDB 5000 Movie Dataset on Kaggle here.
 
 
