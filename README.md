@@ -8,7 +8,7 @@ This repository contains the implementation of a Movie Recommendation System. Th
 ![img alt](https://github.com/vinutmaradur/Movie_Recommendation_System/blob/main/Screenshot%201.png?raw=true)
 ![img alt](https://github.com/vinutmaradur/Movie_Recommendation_System/blob/main/Screenshot%202.png?raw=true)
 ![img alt](https://github.com/vinutmaradur/Movie_Recommendation_System/blob/main/Screenshot%203.png?raw=true)
-
+![img alt](https://github.com/vinutmaradur/Movie_Recommendation_System/blob/main/Screenshot%204.png?raw=true)
 
 ## Features
 
