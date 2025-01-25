@@ -33,16 +33,16 @@ Dataset Overview:
 - **Production Companies**: The companies involved in producing the movie.
 - **Cast and Crew**: Information about the actors, directors, and other key personnel.
   
-Dataset Usage:
+ Dataset Usage:
 The TMDB 5000 Movie Dataset is used for various tasks, such as:
 
 - **Movie Recommendation**: Using features like genres, votes, and popularity to recommend movies to users.
 - **Predictive Analysis**: Building models to predict movie success based on budget, genre, and cast.
 - **Data Visualization**: Analyzing and visualizing data trends, such as the distribution of movie genres, revenue, or ratings over time.
 
-Example Data:
+# Example Data:
 
-# Example Movie Data:
+Example Movie Data:
 
 | Movie Title |	Genre	| Release Date	| Popularity |	Vote Average |	Vote Count |
 | :- | :- | :- | :- | :- | :- |
