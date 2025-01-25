@@ -46,9 +46,9 @@ The TMDB 5000 Movie Dataset is used for various tasks, such as:
 
 | Movie Title |	Genre	| Release Date	| Popularity |	Vote Average |	Vote Count |
 | :- | :- | :- | :- | :- | :- |
-The Dark Knight	Action	2008-07-18	47.55	8.5	2226
-Inception	Action	2010-07-16	38.74	8.2	1489
-Fight Club	Drama	1999-10-15	35.99	8.4	1994
+| The Dark Knight |	Action | 2008-07-18 | 47.55 | 8.5 |	2226 |
+| Inception |	Action | 2010-07-16 |	38.74 |	8.2 |	1489 |
+| Fight Club	| Drama	| 1999-10-15	| 35.99	| 8.4	| 1994 |
 
 ## Dataset Link:
 You can access the TMDB 5000 Movie Dataset on Kaggle here.
