@@ -7,10 +7,11 @@ This repository contains the implementation of a Movie Recommendation System. Th
 
 ## Features
 
-- **Collaborative Filtering**: Recommends movies based on the ratings of other users.
-- **Content-based Filtering**: Recommends movies based on the similarity of the movie's attributes (genres, director, actors, etc.) to movies the user has liked.
-- **Hybrid Approach**: Combines both collaborative and content-based filtering methods to generate better recommendations.
-- **Data Visualization**: Includes visualizations to analyze the movie ratings, distribution, and recommendations.
+- **Interactive User Interface**: The user can input their preferences and get personalized movie recommendations.
+- **Data Processing**: The project uses movie datasets to build recommendation models.
+- **Machine Learning Models**: Utilizes collaborative filtering and/or content-based recommendation algorithms.
+- **Visualization**: Displays relevant movie information, including poster images, ratings, genres, etc.
+
 
 ## About Dataset
 
@@ -40,6 +41,26 @@ The TMDB 5000 Movie Dataset is used for various tasks, such as:
 - **Predictive Analysis**: Building models to predict movie success based on budget, genre, and cast.
 - **Data Visualization**: Analyzing and visualizing data trends, such as the distribution of movie genres, revenue, or ratings over time.
 
+## Project Structure
+
+```
+movie-recommendation-system/
+│
+├── app.py                # Streamlit app file
+├── recommendation_model/ # Folder containing the machine learning model code
+│   ├── collaborative_filtering.py
+│   └── content_based_filtering.py
+├── data/                 # Folder containing datasets (e.g., movie data, ratings data)
+│   └── movies.csv
+│   └── ratings.csv
+├── notebooks/            # Folder containing Jupyter Notebooks for data exploration and model building
+│   └── data_exploration.ipynb
+│   └── model_building.ipynb
+├── requirements.txt      # File with project dependencies
+└── README.md             # Project readme (this file)
+
+```
+
 # Example Data:
 
 Example Movie Data:
@@ -57,43 +78,40 @@ You can access the TMDB 5000 Movie Dataset on Kaggle here.
 
 ## Requirements
 
-Before running the Movie Recommendation System, make sure you have the following libraries installed:
+The project requires the following libraries to be installed:
 
-- Python 3.x
+- Streamlit
 - pandas
 - numpy
 - scikit-learn
 
 
-You can install the necessary libraries using pip:
+You can install the dependencies by running the following command:
 
-```bash
+```
 pip install -r requirements.txt
-## Dataset
 
-This system uses the [Kaggle dataset]([https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_credits.csv]) which contains movie ratings and information about movies such as genre, title, and tags. Make sure to download and prepare the dataset before running the system.
-
-## How to Use
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/movie-recommendation-system.git
 ```
 
-2. Navigate to the project directory:
+## Setup and Run
 
-```bash
-cd movie-recommendation-system
+1. Clone this repository:
+
+```
+git clone https://github.com/your-username/movie-recommendation-system.git
 ```
 
-3. Run the main script to start the recommendation process:
+2. Install the required dependencies:
 
-```bash
-python recommend_movies.py
+```
+pip install -r requirements.txt
 ```
 
-4. The system will prompt you for user input, such as rating or movie preferences. Based on this input, the system will generate personalized movie recommendations.
+3. Run the Streamlit app:
+
+```
+streamlit run app.py
+```
 
 ## Example
 
@@ -106,18 +124,25 @@ Recommended Movies:
 3. Movie Title 3
 ```
 
-## Contributing
+4. The app will be available in your browser at `http://localhost:8501`.
 
-Contributions are welcome! If you have any suggestions or improvements, feel free to fork this repository and create a pull request. Please make sure to follow the code of conduct and adhere to the project's coding standards.
+## Jupyter Notebooks
+
+You can explore the data and build the recommendation models using the Jupyter Notebooks available in the `notebooks/` folder. 
+
+### Notebooks Included:
+- **data_exploration.ipynb**: This notebook explores the movie datasets and performs initial data cleaning and preprocessing.
+- **model_building.ipynb**: This notebook demonstrates how the recommendation models are built and tested.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
-## Acknowledgements
+## Acknowledgments
 
-- The kaggle dataset is provided by GroupLens Research.
-- The system leverages several libraries for data science, machine learning, and web development.
-
+- Movie dataset sourced from [kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+- Streamlit for interactive web app development
+- scikit-learn for machine learning algorithms
+  
 The file for similarity.pkl is provided below download 
 [Download File](https://drive.google.com/file/d/1G9dQO6tn1rrNJgi5LZyXpanJdBQlGyVk/view?usp=sharing)
