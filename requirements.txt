@@ -1,0 +1,8 @@
+numpy
+pandas
+streamlit
+
+download below datasets from kaggle website
+
+tmdb_5000_credits.csv
+tmdb_5000_movies.csv
