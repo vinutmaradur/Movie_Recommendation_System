@@ -5,7 +5,7 @@
 
 This repository contains the implementation of a Movie Recommendation System. The system utilizes various machine learning techniques to recommend movies to users based on their preferences, either through collaborative filtering or content-based methods.
 
-
+![image alt](https://github.com/vinutmaradur/Movie_Recommendation_System/blob/main/Screenshot%201.png?raw=true)
 
 ## Features
 
