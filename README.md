@@ -5,6 +5,8 @@
 
 This repository contains the implementation of a Movie Recommendation System. The system utilizes various machine learning techniques to recommend movies to users based on their preferences, either through collaborative filtering or content-based methods.
 
+
+
 ## Features
 
 - **Interactive User Interface**: The user can input their preferences and get personalized movie recommendations.
@@ -54,8 +56,7 @@ movie-recommendation-system/
 │   └── movies.csv
 │   └── ratings.csv
 ├── notebooks/            # Folder containing Jupyter Notebooks for data exploration and model building
-│   └── data_exploration.ipynb
-│   └── model_building.ipynb
+│   └── Netflix Movie Recommendation System - Content Based Filtering.ipynb
 ├── requirements.txt      # File with project dependencies
 └── README.md             # Project readme (this file)
 
