@@ -1,24 +1,28 @@
-# Content of the README file for the Movie Recommendation System repository.
-
-
-# Movie Recommendation System
+## Movie Recommendation System 🎥✨🤖
 
 This repository contains the implementation of a Movie Recommendation System. The system utilizes various machine learning techniques to recommend movies to users based on their preferences, either through collaborative filtering or content-based methods.
+
+---
+
+## Screenshot 📸
 
 ![img alt](https://github.com/vinutmaradur/Movie_Recommendation_System/blob/main/Screenshot%201.png?raw=true)
 ![img alt](https://github.com/vinutmaradur/Movie_Recommendation_System/blob/main/Screenshot%202.png?raw=true)
 ![img alt](https://github.com/vinutmaradur/Movie_Recommendation_System/blob/main/Screenshot%203.png?raw=true)
 ![img alt](https://github.com/vinutmaradur/Movie_Recommendation_System/blob/main/Screenshot%204.png?raw=true)
 
-## Features
+---
+
+## Features 🎯
 
 - **Interactive User Interface**: The user can input their preferences and get personalized movie recommendations.
 - **Data Processing**: The project uses movie datasets to build recommendation models.
 - **Machine Learning Models**: Utilizes collaborative filtering and/or content-based recommendation algorithms.
 - **Visualization**: Displays relevant movie information, including poster images, ratings, genres, etc.
 
+---
 
-## About Dataset
+## About Dataset 📊
 
 TMDB 5000 Movie Dataset
 The TMDB 5000 Movie Dataset is a dataset available on Kaggle, containing detailed information about 5,000 movies from The Movie Database (TMDb). This dataset is widely used in machine learning, data science, and movie recommendation projects.
@@ -46,7 +50,9 @@ The TMDB 5000 Movie Dataset is used for various tasks, such as:
 - **Predictive Analysis**: Building models to predict movie success based on budget, genre, and cast.
 - **Data Visualization**: Analyzing and visualizing data trends, such as the distribution of movie genres, revenue, or ratings over time.
 
-## Project Structure
+---
+
+## Project Structure 📂
 
 ```
 movie-recommendation-system/
@@ -78,9 +84,9 @@ Example Movie Data:
 Dataset Link:
 You can access the TMDB 5000 Movie Dataset on Kaggle here.
 
+---
 
-
-## Requirements
+## Requirements 🛠️
 
 The project requires the following libraries to be installed:
 
@@ -97,7 +103,9 @@ pip install -r requirements.txt
 
 ```
 
-## Setup and Run
+---
+
+## Setup and Run 🚀
 
 1. Clone this repository:
 
@@ -117,6 +125,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+---
+
 ## Example
 
 After running the system, you will get movie recommendations like the following:
@@ -130,23 +140,41 @@ Recommended Movies:
 
 4. The app will be available in your browser at `http://localhost:8501`.
 
+---
+
 ## Jupyter Notebooks
 
 You can explore the data and build the recommendation models using the Jupyter Notebooks available in the `notebooks/` folder. 
 
-### Notebooks Included:
+---
+
+## Notebooks Included:
 - **data_exploration.ipynb**: This notebook explores the movie datasets and performs initial data cleaning and preprocessing.
 - **model_building.ipynb**: This notebook demonstrates how the recommendation models are built and tested.
 
-## License
+---
+
+## License 📄
 
 This project is licensed under the MIT License.
 
-## Acknowledgments
+---
+
+## Acknowledgments 🙌
 
 - Movie dataset sourced from [kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 - Streamlit for interactive web app development
 - scikit-learn for machine learning algorithms
+
+---
   
-The file for similarity.pkl is provided below download 
-[Download File](https://drive.google.com/file/d/1G9dQO6tn1rrNJgi5LZyXpanJdBQlGyVk/view?usp=sharing)
+## Check my code 👁️
+Below is the link to check my app
+
+  [Project demo](https://movierecommendationsystem-2025.streamlit.app/) 🚀
+
+---
+
+## Happy Coding! 💻✨
+
+You can modify sections like the GitHub repository link or license if needed. Let me know if you'd like help adding anything else!
